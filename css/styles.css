@@ -260,8 +260,7 @@ img {
     
     padding-right: 30px;
     display: flex;
-    
-    
+
 }
 
 
@@ -300,15 +299,17 @@ img {
     border-radius: 0px 0px 4px 4px;
     border: 1px solid #c5c5c5;
     border-top: 0;
-    
+    width: 270px;
+    height: 368px;
 }
 
-
-/* .photo-team {
+.photo-team {
     display: block;
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
-} */
+
+}
+
 
 
 
