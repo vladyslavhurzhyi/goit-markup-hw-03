@@ -27,6 +27,41 @@ ul {
 
 
 
+
+
+
+.header {
+    border-bottom: #ECECEC;
+    border: 1px solid #c5c5c5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.btn-vse, .btn-website, .btn-app, .btn-design, .btn-marketing {
+    padding: 0;
+}
+
+
+
+.nav-items {
+    display: flex;
+    
+}
+
+
+
+.contact-items {
+    display: flex;
+}
+
+
+.contact-item:not(:last-child) {
+    padding-right: 50px;
+}
+
+
 .nav-list {
     display: flex;
 }
@@ -58,6 +93,32 @@ ul {
     padding-right: 15px;
     margin: 0 auto;
 }
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 154px;
+    padding-bottom: 34px;
+    margin: 0;
+    
+}
+
+.mainbtn-item {
+    padding: 0;
+}
+
+.btn:not(:last-child) {
+    padding-right: 8px;
+}
+
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-bottom: 34px;
+}
+
 
 
 
@@ -169,6 +230,7 @@ ul {
     background-color: #2f303a;
     width: 1600px;
     padding-bottom: 200px;
+
 
     
     
@@ -534,14 +596,43 @@ button {
     cursor: pointer;
 }
 
+
+.item-portfolio  {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  
+}
+
+
+.img-portfolio {
+    width: 100%;
+}
+
+.item-portfolio:nth-child(3n)  {
+    margin-right: 0px;
+  }
+
+  .item-portfolio:nth-child(n + 6)  {
+    margin-bottom: 0;
+  }
+
 .item-portfolio {
     width: 370px;
     height: 404px;
     left: 215px;
     top: 262px;
     background: #ffffff;
-    border: 1px solid #eeeeee;
+  
 }
+
+
+.text-div {
+    margin: 20px 24px;
+    /* border: 1px solid #eeeeee; */
+    
+}
+
 
 .title-portfolio {
     width: 322px;
@@ -553,6 +644,8 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-color);
+   margin: 0;
+   
 }
 
 .text-portfolio {
@@ -564,6 +657,9 @@ button {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
+   margin: 0;
+
+    
 }
 
 .current {
